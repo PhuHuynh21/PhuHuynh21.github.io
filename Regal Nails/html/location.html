@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>Regal Nails Location</title>
+	<link type="text/css" rel="stylesheet" href="../css/regal.css">
+	</head>
+	 <body>
+	<div id="wrapper">
+	<div id="imgtop"><img
+           src="../images/logo.jpg" alt="Regal Nails Logo width="auto" height="92" />  </div>
+	<div id="leftnav">	
+	<p><a href="index.html">Home</a></p>
+	<p><a href="about.html">About</a></p>
+	<p><a href="location.html">Location</a></p>
+	<p><a href="contact.html">Contact</a></p>
+	<p><a href="services.html">Services</a></p>
+	<p><a href="faq.html">FAQ</a></p>
+	<p><a href="links.html">Support</a></p>
+	</div>
+  
+	<div id="maintext">
+	
+	<h1>Regal Nails Salon and Spa Location</h1>
+	
+	
+
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(35.60578830000001,-95.96433730000001),
+    zoom: 30,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAh6juB8ij6UJoDGHjHDg8SO48RajcioQs &callback=myMap"></script>
+
+
+	<br>
+	
+	
+	<footer>
+      &copy; 2017, Regal Nails
+      <br>
+      All trademarks and registered trademarks appearing on 
+      this site are the property of their respective owners.
+    </footer>
+	</div>
+	</body>
+</html>
